@@ -7,8 +7,6 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-        diceType: 6,
-        diceNumber: 2,
     };
   }
  
@@ -20,10 +18,4 @@ export default class App extends React.Component {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: 'powderblue',
-    width: 200,
-    height: 50
-  },
 });
